@@ -25,7 +25,6 @@ body {
 }
 /* bordes de la pagina  */
 .contenedor > div,
-.contenedor .contenido,
 .contenedor .encabezado,
 .contenedor .lateral,
 .contenedor .piedepagina
@@ -34,6 +33,13 @@ background:rgb(201, 195, 195) ;
 padding: 20px;
 border-radius: 4%;
 }
+.contenedor .contenido
+{ 
+    background:rgb(255, 255, 255) ;
+    padding: 20px;
+    border-radius: 4%;
+ }
+    
 /* cabecera de la pagina  */
 .contenedor .encabezado {
     background: rgb(7, 7, 7);   
@@ -85,11 +91,25 @@ background-color: rgb(255, 0, 0);
 display: block;
 }
 
-/* espacio del contenidp */
+/* espacio del contenido */
 .contenedor .contenido {
     grid-column: span 2;
 
-} 
+}
+/*texto del contenido para el titulo*/
+ h1  {
+    color:  rgb(2, 2, 2);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40 px;
+    text-align: center;
+}
+/*parrafos */
+p  {
+    color:  rgb(2, 2, 2);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20 px;
+    text-align: justify;
+}
 /* espacio de el menu lateral  */
 .contenedor .lateral{
     grid-column: 3/4;
@@ -117,4 +137,7 @@ display: block;
     grid-column-start:1 ;
     grid-column-end:-1 ;
 
+} 
+.piedepagina h1 {
+    color: rgb(247, 248, 247);
 } 
