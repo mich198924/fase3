@@ -140,8 +140,10 @@ article p  {
     grid-column: 3/4;
     background: tomato;
     grid-row:span 2;
-} 
-/* espacio de los cuadros */
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}/* espacio de los cuadros */
 .contenedor .cuadro1,
 .contenedor .cuadro2 {
     background: blue;

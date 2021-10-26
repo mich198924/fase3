@@ -104,11 +104,12 @@ article h1  {
 article #centrar  { 
     display: block;
     margin-right: auto;
-  margin-left: auto;
+    margin-left: auto;
 }
 
 article img {
-    width: 700px;
+    width: 200px;
+    border-radius: 40%;
   
 }
 /*texto del contenido para el titulo
@@ -131,8 +132,10 @@ article p  {
     grid-column: 3/4;
     background: tomato;
     grid-row:span 2;
-} 
-/* espacio de los cuadros */
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}/* espacio de los cuadros */
 .contenedor .cuadro1,
 .contenedor .cuadro2 {
     background: blue;
