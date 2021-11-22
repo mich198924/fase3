@@ -1,0 +1,49 @@
+
+
+header p {
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+    font-family: 'Times New Roman', Times, serif;
+}
+#menu a {
+    font-size: 20px;
+    color: rgb(247, 242, 242);
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+footer  {
+    background: rgb(241, 8, 8);   
+    color: rgb(251, 255, 251);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 4%;
+
+}
+
+footer .piedepagina  h1 {
+     font-family: 'Times New Roman', Times, serif;
+    
+    
+   
+
+} 
+
+#menu a:hover {
+    background-color: rgb(255, 0, 0);
+    }
+
+#columna   {
+    background: tomato;
+     color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4%;
+    
+
+    
+    } 
+    #columna  h3  {
+        font-size: 15px;
+     
+          
+        } 
